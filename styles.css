@@ -26,13 +26,14 @@ hr {
   width: 10%;
   border-top-color: #EAF6F6;
   border-top-width: 7px;
+  margin: 100px auto;
 }
 .imageheader{
   width: 30%;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .skill-row {
-  margin: 100px auto 100px auto;
+  margin:auto auto 100px auto;
   width: 50%;
   text-align: justify;
   line-height: 2;
@@ -48,10 +49,13 @@ hr {
   line-height: 2;
 }
 .footer-link {
-  color: #11999E;
+  color: #66BFBF;
   margin: auto 20px auto 20px;
   text-decoration: none;
   font-weight: bold;
+}
+.footer-link:hover {
+  color: white;
 }
 .top-container {
   background-color: #aee1e1;
@@ -65,7 +69,7 @@ hr {
   background-color: #fcd1d1;
   position: relative;
   padding-top: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 5px;
 }
 .contact-me {
   padding-bottom: 20px;
@@ -119,4 +123,5 @@ hr {
 }
 .copyright {
   font-size: 0.75rem;
+  padding: 20px 0;
 }
