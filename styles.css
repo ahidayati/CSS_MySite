@@ -28,10 +28,28 @@ hr {
   border-top-width: 7px;
   margin: 100px auto;
 }
+
+/* top container */
+.top-container {
+  background-color: #aee1e1;
+  position: relative;
+  padding-top: 200px;
+}
+.top-cloud {
+  position:absolute;
+  top: 10%;
+  right: 25%;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 20%;
+}
 .imageheader{
   width: 30%;
   margin-top: 100px;
 }
+
+/* middle container */
 .skill-row {
   margin:auto auto 100px auto;
   width: 50%;
@@ -43,64 +61,14 @@ hr {
   width: 50%;
   text-align: center;
 }
+.profilepic {
+  width: 25%;
+  background-color: #fcd1d1;
+}
 .profile-description {
   width: 70%;
   margin: auto;
   line-height: 2;
-}
-.footer-link {
-  color: #66BFBF;
-  margin: auto 20px auto 20px;
-  text-decoration: none;
-  font-weight: bold;
-}
-.footer-link:hover {
-  color: white;
-}
-.top-container {
-  background-color: #aee1e1;
-  position: relative;
-  padding-top: 200px;
-}
-/*.middle-container {
-  background-color: #d3e0dc;
-}*/
-.bottom-container {
-  background-color: #fcd1d1;
-  position: relative;
-  padding-top: 40px;
-  padding-bottom: 5px;
-}
-.contact-me {
-  padding-bottom: 20px;
-  line-height: 2;
-  margin: 100px auto 100px auto;
-}
-.btn {
-  background-color: #11999E;
-  color: #EAF6F6;
-  padding: 12px 28px;
-  border-radius: 12px;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  font-weight: bold;
-}
-.btn:hover {
-  background-color: #fcd1d1;
-  color: #11999E;
-}
-.top-cloud {
-  position:absolute;
-  top: 10%;
-  right: 25%;
-}
-.bottom-cloud {
-  position: absolute;
-  left: 20%;
-}
-.profilepic {
-  width: 25%;
-  background-color: #fcd1d1;
 }
 .comppic {
   width: 25%;
@@ -121,7 +89,46 @@ hr {
 .econ-skill-heading {
   text-align: right;
 }
+.btn {
+  background-color: #11999E;
+  color: #EAF6F6;
+  padding: 12px 28px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* bottom container */
+.footer-link {
+  color: #66BFBF;
+  margin: auto 20px auto 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer-link:hover {
+  color: white;
+}
 .copyright {
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+/*.middle-container {
+  background-color: #d3e0dc;
+}*/
+.bottom-container {
+  background-color: #fcd1d1;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+.contact-me {
+  padding-bottom: 20px;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+}
+.btn:hover {
+  background-color: #fcd1d1;
+  color: #11999E;
 }
